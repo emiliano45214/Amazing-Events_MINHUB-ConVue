@@ -24,7 +24,7 @@ createApp( {
             console.log(this.cardsFiltradas)
             console.log(this.checkboxes)
         })
-        .catch()
+        .catch(err => console.log(err))
     },
     methods:{
         filtroCruzado: function(){
