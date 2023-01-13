@@ -272,4 +272,50 @@ width: 300px;
 justify-content: center;
 
 }
+.check-nav{
+    display: flex;
+    flex-direction: column-reverse ;
+    align-items: center;
+    gap: 20px;
+}
+.btn-danger{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.593) !important;
+}
+.checkbox{
+    font-size:11px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; 
+}
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:10px ;
+    margin-right:10px ;
+    padding: 0px !important;
+}
+.card-body{
+    background-color: rgba(215, 87, 13, 0.336);
+height: 200px;
+}
+.card-img-top{
+    height: 200px;
+}
 
+.div-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detail-card{
+    width: 700px;
+    background-color: black;
+}
+.carta-detallada{
+    width: 100%;
+}
+.card-cuerpo {
+    background-color: aliceblue;
+}
